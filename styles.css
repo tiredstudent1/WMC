@@ -17,16 +17,6 @@ header {
     width: 100%;
 }
 
-.images {
-    display: flex; /* Flexbox für die Bilder */
-    justify-content: space-between; /* Bilder gleichmäßig verteilen */
-    margin: 20px 0; /* Abstand oben und unten */
-}
-
-.left-image, .right-image {
-    width: 200px; /* Bildbreite festlegen */
-    height: auto; /* Automatische Höhe beibehalten */
-    border-radius: 8px; /* Abgerundete Ecken */
 }
 
 .about {
