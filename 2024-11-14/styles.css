@@ -1,13 +1,69 @@
-:root {
-    --color-primary: #00ad6a;
-    --color-secondary: #eafaf1;
-    --color-accent: #1fe374;
-    --color-dark: #080c16;
-    --color-light: #d6dae5;
-    --color-background: #fcfcfc;
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
-body {
-    color: var(--color-dark);
-    background: var(--color-background);
+h1,
+h3 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    background-color: #e6f7e8;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #2c8547;
+}
+
+header p {
+    color: #666;
+}
+
+/* Pricing Cards */
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h5 {
+    font-size: 1.2rem;
+}
+
+.pricing-card h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Quote Section */
+.bg-light {
+    background-color: #f9f9f9 !important;
+}
+
+.fst-italic {
+    font-size: 1.1rem;
+}
+
+/* FAQ Section */
+section h5 {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
 }
