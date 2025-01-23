@@ -69,6 +69,10 @@ body {
     color: #16a34a;
 }
 
+.motto {
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: #e0f2fe;
